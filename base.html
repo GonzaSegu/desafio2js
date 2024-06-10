@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagen con borde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container1">
+        <div><h1>Click en la foto</h1></div>
+        <div class="bla"><img id="foto" src="foto.jpg"></div>
+    </div>
+    <div class="container2">
+        <div><h4>Puedes llevar hasta 10 stickers en total</h4></div>
+        <div class="container21" >
+            <div class="tarjeta">
+                <img src="foto1.jpg" alt="">
+                <input id="numero1" type="number" value="0" class="input_centrado">
+            </div>
+            <div class="tarjeta">
+                <img src="foto2.jpg" alt="">
+                <input id="numero2" type="number" value="0" class="input_centrado">
+            </div>
+            <div class="tarjeta">
+                <img src="foto3.jpg" alt="">
+                <input id="numero3" type="number" value="0" class="input_centrado">
+            </div>
+        </div>
+        <div><button id="verificar">Verificar</button>
+        <button id="deshacer">Deshacer</button></div>
+        <div><span id="resultado"></span></div>
+    </div>
+    <div class="container3">
+        
+            <div><label for="digitos">Ingresa Password:</label></div>
+            <div>
+                <select id="digito1"></select>
+                <select id="digito2"></select>
+                <select id="digito3"></select>
+            </div>    
+            <div><button id="ingresar">Ingresar</button></div>
+            <div><span id="clave"></span></div>
+        
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
